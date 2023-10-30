@@ -2,7 +2,7 @@ token: "lip_9KzqGEGGFQOX2hTp3MSW"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
-  dir: "./"                  # Directory containing engines, relative to this project.
+  dir: "./engine"                  # Directory containing engines, relative to this project.
   name: "lc0.exe"    # Binary name of the engine to use.
   sfname: "lc0.exe"
   antiname: "fsf"
